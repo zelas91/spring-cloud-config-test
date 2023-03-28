@@ -1,7 +1,7 @@
 server:
   port: 8003
 configuration:
-  projectName: Spring Cloud
+  projectName: Spring Cloud2
 spring:
   boot:
     admin:
@@ -14,8 +14,6 @@ management:
     logfile:
       external-file: core.log
 logging:
-  pattern:
-    file: "%d{ABSOLUTE} %-5p [%c{1}] [%t] [%m]%n"
   logback:
     rollingpolicy:
       max-history: 5
