@@ -1,7 +1,7 @@
 server:
   port: 8003
 configuration:
-  projectName: Spring Cloud2
+  projectName: Spring Cloud
 spring:
   boot:
     admin:
