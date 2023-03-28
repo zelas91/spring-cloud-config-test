@@ -11,6 +11,8 @@ management:
   endpoint:
     health:
       show-details: always
+    logfile:
+      external-file: core.log
 logging:
   pattern:
     file: "%d{ABSOLUTE} %-5p [%c{1}] [%t] [%m]%n"
