@@ -12,5 +12,6 @@ management:
     health:
       show-details: always
 logging:
-  file: core.log
+  file: 
+    name: core.log
  
