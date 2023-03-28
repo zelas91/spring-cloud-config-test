@@ -12,12 +12,14 @@ management:
     health:
       show-details: always
 logging:
-  file: 
-    name: core.log
+  pattern:
+    console: "%d{ABSOLUTE} %-5p [%c{1}] [%t] [%m]%n"
   logback:
     rollingpolicy:
       max-history: 5
       max-file-size: 10MB
-  pattern:
-    console: "%d{ABSOLUTE} %-5p [%c{1}] [%t] [%m]%n"
+  file: 
+    name: core.log
+  
+  
  
