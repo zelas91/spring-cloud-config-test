@@ -2,3 +2,12 @@ server:
   port: 8003
 configuration:
   projectName: Spring Cloud
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8888/admin
+management:
+  endpoint:
+    health:
+      show-details: always
